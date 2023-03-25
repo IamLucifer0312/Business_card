@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Yugioh;
+    src: url(fonts/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/universe.gif);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    font-size:xx-large;
+    color: #e7edf1;
+   
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background-image: url(images/Link-Background-Texture.png);
+    border: solid rgb(95, 85, 85) 5px;
+    border-radius: 10px;
+    font-family: 'Yugioh';
+    padding: 0px 15px 10px 15px;
+   
+}
+
+main {
+    width: 375px;
+    height: 530px;
+    background-image:url('images/Link-Background-Texture.png');
+    border: 8px solid rgb(95, 85, 85);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.name h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #98542b;
+    background-color: #c2d6e6;
+    border-radius: 15px;
+    font-family:'Yugioh';
+    padding: 0px 15px 2px 15px;
+}
+
+.name h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px ridge black;
+    margin: 0 auto;
+
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.description h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px ridge #98542b;
+    background-color:#c2d6e6;
+    font-family:'Yugioh';
+    padding: 0px 15px 2px 15px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+   
+}
+
+.icons a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+
+.icons a h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px ridge #98542b;
+    background-color:#c2d6e6;
+    border-radius: 15px;
+    font-family:'Yugioh';
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.icons a img {
+    width: 34px;
+}
