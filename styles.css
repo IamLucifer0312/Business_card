@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
+    margin: 0 auto;
     font-size:xx-large;
     color: #e7edf1;
    
@@ -28,7 +28,7 @@ body {
     align-items: center;
     vertical-align: middle;
     background-image: url(images/Link-Background-Texture.png);
-    border: solid rgb(95, 85, 85) 0.3125;
+    border: solid rgb(95, 85, 85) 0.3125rem;
     border-radius: 0.625rem;
     font-family: 'Yugioh';
     padding: 0rem 0.9375rem 0.625rem 0.9375rem;
@@ -75,14 +75,15 @@ main {
     align-items: center;
     border: 0.625rem ridge black;
     margin: 0 auto;
-    width: 18.75rem;
-    height: 14.375rem;
+    width: 18rem;
+    height: 15rem;
 }
 
 .description {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -1.2rem;
     
 }
 
@@ -94,22 +95,20 @@ main {
     background-color:#c2d6e6;
     font-family:'Yugioh';
     padding: 0px 0.9375rem 0.125rem 0.9375rem;
+    
 }
 
 .icons{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 1.25rem;
-
-   
+    margin-bottom: 5rem;
 }
 
 .icons a {
-    align-items: center;
-    justify-content: center;
-    display: flex;
     text-decoration: none;
+
 }
 
 
