@@ -28,21 +28,21 @@ body {
     align-items: center;
     vertical-align: middle;
     background-image: url(images/Link-Background-Texture.png);
-    border: solid rgb(95, 85, 85) 5px;
-    border-radius: 10px;
+    border: solid rgb(95, 85, 85) 0.3125;
+    border-radius: 0.625rem;
     font-family: 'Yugioh';
-    padding: 0px 15px 10px 15px;
+    padding: 0rem 0.9375rem 0.625rem 0.9375rem;
    
 }
 
 main {
-    width: 375px;
-    height: 530px;
+    width: 23.4375rem;
+    height: 33.125rem;
     background-image:url('images/Link-Background-Texture.png');
-    border: 8px solid rgb(95, 85, 85);
+    border: 0.5rem solid rgb(95, 85, 85);
     text-align: center;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     
 }
 
@@ -50,32 +50,33 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
+    margin: 0rem auto;
 }
 
 .name h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #98542b;
+    border: 0.3125rem solid #98542b;
     background-color: #c2d6e6;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     font-family:'Yugioh';
-    padding: 0px 15px 2px 15px;
+    padding: 0px 0.9375rem 0.125rem 0.9375rem;
 }
 
 .name h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .avatar img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 10px ridge black;
+    border: 0.625rem ridge black;
     margin: 0 auto;
-
+    width: 18.75rem;
+    height: 14.375rem;
 }
 
 .description {
@@ -89,17 +90,17 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 7px ridge #98542b;
+    border: 0.4375rem ridge #98542b;
     background-color:#c2d6e6;
     font-family:'Yugioh';
-    padding: 0px 15px 2px 15px;
+    padding: 0px 0.9375rem 0.125rem 0.9375rem;
 }
 
 .icons{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 
    
 }
@@ -117,14 +118,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px ridge #98542b;
+    border: 0.3125rem ridge #98542b;
     background-color:#c2d6e6;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     font-family:'Yugioh';
-    padding: 8px;
+    padding: 0.5rem;
     text-transform: uppercase;
 }
 
 .icons a img {
-    width: 34px;
+    width: 2.125rem;
 }
