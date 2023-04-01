@@ -30,7 +30,7 @@ html {
 
 body {
     display: flex;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-image: linear-gradient(to right bottom, #2a07a6, #34069c, #3b0593, #3f068a, #420781, #3c0b76, #370d6b, #320f60, #26104f, #1c0f3f, #150a2e, #0e021e);
     background-size: 400%;
